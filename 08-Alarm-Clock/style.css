@@ -9,13 +9,13 @@ html {
 
 
 body {
-    border: 8px solid lightgreen;
+    border: 8px solid rgb(41, 82, 41);
     border-radius: 20px;
     padding: 40px;
     width: 60%;
     height: 400px;
     margin: 0 auto;
-    background: url('https://www.goodfreephotos.com/albums/other-photos/angel-entering-heaven-with-light.jpg');
+    background-color: black;
 }
 
 #clock {
@@ -40,7 +40,7 @@ h2 {
     font-family: Verdana;
     font-size: 0.6em;
     padding: 0.7em;
-  color: white;
+  color: rgb(175, 175, 175);
 }
 
 label {
@@ -48,7 +48,7 @@ label {
 }
 
 .timeofday {
-    background-color: #eee;
+    background-color: rgb(158, 158, 158);
 }
 
 .bigger {
@@ -63,12 +63,14 @@ label {
 
 #setButton {
     float:left;
-    background-color:lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(96, 158, 96);
     margin-top:10px;
 }
 #clearButton {
     float:right;
-    background-color:red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(146, 34, 34);
     margin-top:10px;
 }
 
